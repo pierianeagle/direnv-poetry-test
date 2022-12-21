@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "direnv-poetry-test"
+version = "0.1.0"
+description = "This is a test of direnv's workflow with poetry."
+authors = ["alpal"]
+readme = "README.md"
+packages = [{include = "direnv_poetry_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pendulum = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
