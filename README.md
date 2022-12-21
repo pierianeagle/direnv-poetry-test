@@ -11,7 +11,7 @@ poetry new direnv-poetry-test
 git init
 
 # create .gitignore
-echo .direnv/ > .gitignore
+echo .venv/ > .gitignore
 
 # create .tool_versions
 asdf local python latest
